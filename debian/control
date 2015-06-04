@@ -5,8 +5,9 @@
 Source: gobject-introspection
 Section: devel
 Priority: optional
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Iain Lane <laney@debian.org>, Michael Biebl <biebl@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders: Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Iain Lane <laney@debian.org>, Michael Biebl <biebl@debian.org>
 Build-Depends: debhelper (>= 8),
                cdbs (>= 0.4.90~),
                dh-autoreconf,
@@ -28,6 +29,7 @@ Homepage: https://wiki.gnome.org/GObjectIntrospection
 Vcs-Svn: svn://svn.debian.org/svn/pkg-gnome/desktop/unstable/gobject-introspection
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gobject-introspection/
 XS-Testsuite: autopkgtest
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ jessie
 
 Package: libgirepository-1.0-1
 Section: libs
